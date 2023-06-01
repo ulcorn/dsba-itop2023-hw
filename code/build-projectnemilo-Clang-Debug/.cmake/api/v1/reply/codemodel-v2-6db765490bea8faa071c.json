@@ -1,0 +1,70 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-3749105d4c03ea247e28.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "projectnemilo",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "projectnemilo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-projectnemilo-Debug-3169d74171881f4a941a.json",
+					"name" : "projectnemilo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "projectnemilo_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-projectnemilo_autogen-Debug-75066399a6899d1f7b19.json",
+					"name" : "projectnemilo_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug",
+		"source" : "/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

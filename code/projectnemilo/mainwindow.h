@@ -2,13 +2,23 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "bookmodel.h"
+
+namespace Ui {
+class MainWindow;
+}
 
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
 
 public:
-    MainWindow(QWidget *parent = nullptr);
+    explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+
+private:
+    Ui::MainWindow *ui;
+    BookModel *model;
 };
+
 #endif // MAINWINDOW_H

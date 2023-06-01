@@ -1,0 +1,8 @@
+/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/CMakeFiles/projectnemilo.dir
+/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/CMakeFiles/edit_cache.dir
+/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/CMakeFiles/rebuild_cache.dir
+/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/CMakeFiles/list_install_components.dir
+/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/CMakeFiles/install.dir
+/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/CMakeFiles/install/local.dir
+/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/CMakeFiles/install/strip.dir
+/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/CMakeFiles/projectnemilo_autogen.dir
