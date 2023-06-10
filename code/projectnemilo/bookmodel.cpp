@@ -1,10 +1,13 @@
 #include "bookmodel.h"
 #include "QtCore/qregularexpression.h"
 #include <QFile>
+#include <QStringList>
 #include <QTextStream>
 #include <QDebug>
+#include <QDate>
+#include <Qwidget>
 
-BookModel::BookModel(QObject *parent)
+BookModel::BookModel(QObject* parent)
     : QAbstractTableModel(parent)
 {
 }
@@ -13,113 +16,162 @@ BookModel::BookModel(QObject *parent)
 void BookModel::loadFromCSV(QString fileName)
 {
     QFile file(fileName);
-    if (!file.open(QIODevice::ReadOnly)) {
+    if (!file.open(QIODevice::ReadOnly))
+    {
         qDebug() << file.errorString();
         return;
     }
-
-    // clear previous content
     m_books.clear();
 
-    while (!file.atEnd()) {
-        QString line = file.readLine();
-        QStringList fields;
-        bool isInsideQuotes = false;
-        QString value;
+    QTextStream in(&file);
+    in.readLine();
+    bool withinQuotes = false;
+    bool withinDescriptionField = false;
+    while (!in.atEnd())
+    {
+        QString line = in.readLine();
 
-        // Custom CSV parser
-        for (int i = 0; i < line.size(); ++i) {
-            QChar current = line.at(i);
-            if (isInsideQuotes) {
-                if (current == '\"') {
-                    if (i < line.size()-1 && line.at(i+1) == '\"') { // handle double quotes
-                        value += current;
-                        ++i; // skip next character
-                    } else {
-                        isInsideQuotes = false;
-                    }
-                } else {
-                    value += current;
-                }
-            } else {
-                if (current == '\"') {
-                    isInsideQuotes = true;
-                } else if (current == ',') {
-                    fields.append(value.trimmed());
-                    value.clear();
-                } else {
-                    value += current;
-                }
+        // Custom splitting logic
+        QStringList fields;
+        QString currentField;
+        for (int i = 0; i < line.length(); ++i)
+        {
+            QChar currentChar = line.at(i);
+            if (currentChar == ';')
+            {
+                fields.append(currentField);
+                currentField.clear();
+            }
+            else if (currentChar == '\t')
+            {
+                currentField.append('\n');
+            }
+            else if ((currentChar == ':') and fields.size() == 1)
+            {
+                currentField.append(':');
+                currentField.append('\n');
+            }
+            else
+            {
+                currentField.append(currentChar);
             }
         }
-        fields.append(value.trimmed()); // last field
+
+        fields.append(currentField);
+
+        if (fields.count() < 14) continue;
 
         Book book;
-        for (int i = 0; i < fields.size(); ++i) {
-            QString token = fields[i];
-
-            // remove enclosing double quotes if present
-            if (token.startsWith("\"") && token.endsWith("\"")) {
-                token = token.mid(1, token.length() - 2);
-            }
-
-            switch (i) {
-            case 1: book.title = token; break;
-            case 2: book.author = token; break;
-            case 3: book.rating = token.toFloat(); break;
-            case 4: book.voters = token.toInt(); break;
-            case 5: book.price = token.toFloat(); break;
-            case 6: book.currency = token; break;
-            case 7: book.description = token; break;
-            case 8: book.publisher = token; break;
-            case 9: book.page_count = token.toInt(); break;
-            case 10: book.genres = token; break;
-            case 11: book.isbn = token; break;
-            case 12: book.language = token; break;
-            case 13: book.published_date = token; break;
-            }
-        }
+        book.title = fields[1];
+        book.author = fields[2];
+        book.rating = fields[3].toFloat();
+        book.voters = fields[4].toInt();
+        book.price = fields[5].toFloat();
+        book.currency = fields[6];
+        book.description = fields[7];
+        book.publisher = fields[8];
+        book.page_count = fields[9].toInt();
+        book.genres = fields[10];
+        book.isbn = fields[11];
+        book.language = fields[12];
+        book.published_date = QDate::fromString(fields[13], "MMM d, yyyy");
         m_books.append(book);
     }
-
     file.close();
 }
-
-
-
-
-
-int BookModel::rowCount(const QModelIndex & /*parent*/) const
-{
-    return m_books.count();
-}
-
-int BookModel::columnCount(const QModelIndex & /*parent*/) const
-{
-    return 13; // There are 13 fields
-}
-
-QVariant BookModel::data(const QModelIndex &index, int role) const
+QVariant BookModel::headerData(int section, Qt::Orientation orientation, int role) const
 {
     if (role == Qt::DisplayRole)
     {
-        const auto & book = m_books[index.row()];
-        switch(index.column()) {
-        case 0: return book.title;
-        case 1: return book.author;
-        case 2: return book.rating;
-        case 3: return book.voters;
-        case 4: return book.price;
-        case 5: return book.currency;
-        case 6: return book.description;
-        case 7: return book.publisher;
-        case 8: return book.page_count;
-        case 9: return book.genres;
-        case 10: return book.isbn;
-        case 11: return book.language;
-        case 12: return book.published_date;
-        default: return QVariant();
+        if (orientation == Qt::Horizontal) {
+            switch (section) {
+            case 0:
+                return QString("Book Title");
+            case 1:
+                return QString("Author");
+            case 2:
+                return QString("Price");
+            }
         }
     }
     return QVariant();
 }
+
+
+int BookModel::rowCount(const QModelIndex& /*parent*/) const
+{
+    return m_books.count();
+}
+
+int BookModel::columnCount(const QModelIndex& /*parent*/) const
+{
+    return 3;
+}
+
+QVariant BookModel::data(const QModelIndex& index, int role) const
+{
+    if (role == Qt::DisplayRole)
+    {
+        const auto& book = m_books[index.row()];
+        switch (index.column())
+        {
+        case 0:
+            return book.title;
+        case 1:
+            return book.author;
+//        case 2:
+//            return book.rating;
+//        case 3:
+//            return book.voters;
+        case 2:
+            return book.price;
+//        case 5:
+//            return book.currency;
+//        case 6:
+//            return book.description;
+//        case 7:
+//            return book.publisher;
+//        case 8:
+//            return book.page_count;
+//        case 9:
+//            return book.genres;
+//        case 10:
+//            return book.isbn;
+//        case 11:
+//            return book.language;
+//        case 12:
+//            return book.published_date;
+//        default:
+//            return QVariant();
+        }
+    }
+    return QVariant();
+}
+bool BookModel::removeRow(int row, const QModelIndex &parent)
+{
+    if (row < 0 || row >= m_books.size())
+        return false;
+
+    beginRemoveRows(parent, row, row);
+    m_books.removeAt(row);
+    endRemoveRows();
+
+    return true;
+}
+void BookModel::addBook(const Book &book)
+{
+    beginInsertRows(QModelIndex(), m_books.size(), m_books.size());
+    m_books.append(book);
+    endInsertRows();
+}
+Book& BookModel::getBook(int index)
+{
+    return m_books[index];
+}
+
+void BookModel::updateBook(int index, const Book& book)
+{
+    m_books[index] = book;
+    emit dataChanged(createIndex(index, 0), createIndex(index, columnCount() - 1));
+}
+

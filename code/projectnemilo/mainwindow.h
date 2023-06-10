@@ -3,7 +3,6 @@
 
 #include <QMainWindow>
 #include "bookmodel.h"
-
 namespace Ui {
 class MainWindow;
 }
@@ -19,6 +18,13 @@ public:
 private:
     Ui::MainWindow *ui;
     BookModel *model;
+    BookModel *cart;
+
+private slots:
+    void RemoveButtonClicked();
+    void onAddButtonClicked();
+    void onEditButtonClicked();
+    void oninfoButtonClicked();
 };
 
 #endif // MAINWINDOW_H

@@ -291,9 +291,27 @@
 	"HEADERS" : 
 	[
 		[
+			"/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/adddialog.h",
+			"MU",
+			"EWIEGA46WW/moc_adddialog.cpp",
+			null
+		],
+		[
 			"/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/bookmodel.h",
 			"MU",
 			"EWIEGA46WW/moc_bookmodel.cpp",
+			null
+		],
+		[
+			"/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/editdialog.h",
+			"MU",
+			"EWIEGA46WW/moc_editdialog.cpp",
+			null
+		],
+		[
+			"/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/infodialog.h",
+			"MU",
+			"EWIEGA46WW/moc_infodialog.cpp",
 			null
 		],
 		[
@@ -361,7 +379,22 @@
 	"SOURCES" : 
 	[
 		[
+			"/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/adddialog.cpp",
+			"MU",
+			null
+		],
+		[
 			"/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/bookmodel.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/editdialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/infodialog.cpp",
 			"MU",
 			null
 		],

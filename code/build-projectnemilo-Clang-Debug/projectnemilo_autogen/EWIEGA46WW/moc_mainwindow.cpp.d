@@ -626,6 +626,7 @@
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stdarg.h \
   /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/projectnemilo/bookmodel.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/QAbstractTableModel \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/QDate \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/QString \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/QVariant \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/QVector \
@@ -646,6 +647,7 @@
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qcalendar.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qchar.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qcompare.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h \
@@ -658,6 +660,7 @@
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qdatetime.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
@@ -674,6 +677,7 @@
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qlocale.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qlogging.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qmalloc.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h \

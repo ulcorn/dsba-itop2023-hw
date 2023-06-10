@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/projectnemilo_autogen"
+  "projectnemilo_autogen/include/ui_adddialog.h"
+  "projectnemilo_autogen/include/ui_editdialog.h"
+  "projectnemilo_autogen/include/ui_infodialog.h"
   "projectnemilo_autogen/include/ui_mainwindow.h"
   "projectnemilo_autogen/mocs_compilation.cpp"
 )

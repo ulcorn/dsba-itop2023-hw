@@ -187,6 +187,30 @@ projectnemilo_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectnemilo_autogen.dir/build.make CMakeFiles/projectnemilo_autogen.dir/build
 .PHONY : projectnemilo_autogen/fast
 
+adddialog.o: adddialog.cpp.o
+.PHONY : adddialog.o
+
+# target to build an object file
+adddialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectnemilo.dir/build.make CMakeFiles/projectnemilo.dir/adddialog.cpp.o
+.PHONY : adddialog.cpp.o
+
+adddialog.i: adddialog.cpp.i
+.PHONY : adddialog.i
+
+# target to preprocess a source file
+adddialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectnemilo.dir/build.make CMakeFiles/projectnemilo.dir/adddialog.cpp.i
+.PHONY : adddialog.cpp.i
+
+adddialog.s: adddialog.cpp.s
+.PHONY : adddialog.s
+
+# target to generate assembly for a file
+adddialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectnemilo.dir/build.make CMakeFiles/projectnemilo.dir/adddialog.cpp.s
+.PHONY : adddialog.cpp.s
+
 bookmodel.o: bookmodel.cpp.o
 .PHONY : bookmodel.o
 
@@ -210,6 +234,54 @@ bookmodel.s: bookmodel.cpp.s
 bookmodel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectnemilo.dir/build.make CMakeFiles/projectnemilo.dir/bookmodel.cpp.s
 .PHONY : bookmodel.cpp.s
+
+editdialog.o: editdialog.cpp.o
+.PHONY : editdialog.o
+
+# target to build an object file
+editdialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectnemilo.dir/build.make CMakeFiles/projectnemilo.dir/editdialog.cpp.o
+.PHONY : editdialog.cpp.o
+
+editdialog.i: editdialog.cpp.i
+.PHONY : editdialog.i
+
+# target to preprocess a source file
+editdialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectnemilo.dir/build.make CMakeFiles/projectnemilo.dir/editdialog.cpp.i
+.PHONY : editdialog.cpp.i
+
+editdialog.s: editdialog.cpp.s
+.PHONY : editdialog.s
+
+# target to generate assembly for a file
+editdialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectnemilo.dir/build.make CMakeFiles/projectnemilo.dir/editdialog.cpp.s
+.PHONY : editdialog.cpp.s
+
+infodialog.o: infodialog.cpp.o
+.PHONY : infodialog.o
+
+# target to build an object file
+infodialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectnemilo.dir/build.make CMakeFiles/projectnemilo.dir/infodialog.cpp.o
+.PHONY : infodialog.cpp.o
+
+infodialog.i: infodialog.cpp.i
+.PHONY : infodialog.i
+
+# target to preprocess a source file
+infodialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectnemilo.dir/build.make CMakeFiles/projectnemilo.dir/infodialog.cpp.i
+.PHONY : infodialog.cpp.i
+
+infodialog.s: infodialog.cpp.s
+.PHONY : infodialog.s
+
+# target to generate assembly for a file
+infodialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectnemilo.dir/build.make CMakeFiles/projectnemilo.dir/infodialog.cpp.s
+.PHONY : infodialog.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -297,9 +369,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... projectnemilo_autogen"
 	@echo "... projectnemilo"
+	@echo "... adddialog.o"
+	@echo "... adddialog.i"
+	@echo "... adddialog.s"
 	@echo "... bookmodel.o"
 	@echo "... bookmodel.i"
 	@echo "... bookmodel.s"
+	@echo "... editdialog.o"
+	@echo "... editdialog.i"
+	@echo "... editdialog.s"
+	@echo "... infodialog.o"
+	@echo "... infodialog.i"
+	@echo "... infodialog.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

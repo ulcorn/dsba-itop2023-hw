@@ -20,6 +20,18 @@ set(PROJECT_SOURCES
 
         bookmodel.h
         bookmodel.cpp
+
+        adddialog.h
+        adddialog.cpp
+        adddialog.ui
+
+        editdialog.h
+        editdialog.cpp
+        editdialog.ui
+
+        infodialog.h
+        infodialog.cpp
+        infodialog.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

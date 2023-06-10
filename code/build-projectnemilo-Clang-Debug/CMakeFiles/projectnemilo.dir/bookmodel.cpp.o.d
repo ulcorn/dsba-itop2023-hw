@@ -806,6 +806,10 @@ CMakeFiles/projectnemilo.dir/bookmodel.cpp.o: \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qvector.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QString \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QVariant \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QDate \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qdatetime.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qcalendar.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qlocale.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qregularexpression.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QFile \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qfile.h \
@@ -882,5 +886,41 @@ CMakeFiles/projectnemilo.dir/bookmodel.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/u8path.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QStringList \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QTextStream \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QDebug
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QDebug \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/Qwidget \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qwidget.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qtguiglobal.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qtgui-config.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qtguiexports.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qtwidgets-config.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qtwidgetsexports.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qwindowdefs.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qmargins.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qaction.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qkeysequence.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qicon.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qsize.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qpixmap.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qpaintdevice.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qrect.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qpoint.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qcolor.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qrgb.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qrgba64.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qimage.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qpixelformat.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qtransform.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qpolygon.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qregion.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qline.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qpalette.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qbrush.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qfont.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qfontmetrics.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qfontinfo.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qsizepolicy.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qcursor.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qbitmap.h

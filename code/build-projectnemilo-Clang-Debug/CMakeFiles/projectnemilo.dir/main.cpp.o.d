@@ -844,6 +844,10 @@ CMakeFiles/projectnemilo.dir/main.cpp.o: \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qvector.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QString \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QVariant \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QDate \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qdatetime.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qcalendar.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qlocale.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QApplication \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qapplication.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qcoreapplication.h \
@@ -853,5 +857,4 @@ CMakeFiles/projectnemilo.dir/main.cpp.o: \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qcoreapplication_platform.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qguiapplication.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qinputmethod.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qlocale.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qguiapplication_platform.h
