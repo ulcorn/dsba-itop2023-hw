@@ -806,7 +806,7 @@ CMakeFiles/projectnemilo.dir/bookmodel.cpp.o: \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qvector.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QString \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QVariant \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QDate \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QDateTime \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qdatetime.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qcalendar.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qlocale.h \
@@ -889,6 +889,7 @@ CMakeFiles/projectnemilo.dir/bookmodel.cpp.o: \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QStringList \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QTextStream \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QDebug \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QDate \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/Qwidget \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qwidget.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \

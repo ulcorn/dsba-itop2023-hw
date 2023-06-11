@@ -46,11 +46,6 @@ void BookModel::loadFromCSV(QString fileName)
             {
                 currentField.append('\n');
             }
-            else if ((currentChar == ':') and fields.size() == 1)
-            {
-                currentField.append(':');
-                currentField.append('\n');
-            }
             else
             {
                 currentField.append(currentChar);
@@ -74,11 +69,13 @@ void BookModel::loadFromCSV(QString fileName)
         book.genres = fields[10];
         book.isbn = fields[11];
         book.language = fields[12];
-        book.published_date = QDate::fromString(fields[13], "MMM d, yyyy");
+        book.published_date = QDate::fromString(fields[13], "MMM d, yyyy") ;
         m_books.append(book);
     }
     file.close();
 }
+
+
 QVariant BookModel::headerData(int section, Qt::Orientation orientation, int role) const
 {
     if (role == Qt::DisplayRole)
@@ -103,10 +100,12 @@ int BookModel::rowCount(const QModelIndex& /*parent*/) const
     return m_books.count();
 }
 
+
 int BookModel::columnCount(const QModelIndex& /*parent*/) const
 {
     return 3;
 }
+
 
 QVariant BookModel::data(const QModelIndex& index, int role) const
 {
@@ -147,6 +146,8 @@ QVariant BookModel::data(const QModelIndex& index, int role) const
     }
     return QVariant();
 }
+
+
 bool BookModel::removeRow(int row, const QModelIndex &parent)
 {
     if (row < 0 || row >= m_books.size())
@@ -158,12 +159,17 @@ bool BookModel::removeRow(int row, const QModelIndex &parent)
 
     return true;
 }
+
+
 void BookModel::addBook(const Book &book)
 {
+    Book newBook = book;
     beginInsertRows(QModelIndex(), m_books.size(), m_books.size());
-    m_books.append(book);
+    m_books.append(newBook);
     endInsertRows();
 }
+
+
 Book& BookModel::getBook(int index)
 {
     return m_books[index];

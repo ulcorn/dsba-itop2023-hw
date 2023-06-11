@@ -16,6 +16,13 @@ infoDialog::~infoDialog()
 
 void infoDialog::setBook(const Book& book)
 {
+    ui->BooktitleGraph->setFixedWidth(200);
+    ui->BooktitleGraph->setWordWrap(true);
+
+    ui->AuthorGraph->setFixedWidth(200);
+    ui->AuthorGraph->setWordWrap(true);
+
+
     ui->BooktitleGraph->setText(book.title);
     ui->AuthorGraph->setText(book.author);
     ui->PriceGraph->setText(QString::number(book.price));
@@ -55,16 +62,16 @@ void infoDialog::setBook(const Book& book)
         }
     }
     ui->TableDescriptionGenres->setRowHeight(1, maxRowHeight);
+//    ui->TableDescriptionGenres->resizeRowsToContents();
 
-
-    for (int i = 0; i < ui->TableDescriptionGenres->columnCount(); ++i)
+    for (int i = 1; i < ui->TableDescriptionGenres->columnCount(); ++i)
     {
         ui->TableDescriptionGenres->horizontalHeader()->setSectionResizeMode(i, QHeaderView::Stretch);
     }
-    for (int i = 0; i < ui->TableDescriptionGenres->rowCount(); ++i)
-    {
-        ui->TableDescriptionGenres->verticalHeader()->setSectionResizeMode(i, QHeaderView::Stretch);
-    }
+//    for (int i = 0; i < ui->TableDescriptionGenres->rowCount(); ++i)
+//    {
+//        ui->TableDescriptionGenres->verticalHeader()->setSectionResizeMode(i, QHeaderView::Stretch);
+//    }
 
 
     ui->TableDescriptionGenres->verticalHeader()->setVisible(false);
@@ -103,5 +110,5 @@ void infoDialog::setBook(const Book& book)
     {
         ui->TableDetails->horizontalHeader()->setSectionResizeMode(i, QHeaderView::Stretch);
     }
-    ui->TableDetails->verticalHeader()->setSectionResizeMode(QHeaderView::Fixed);
+    ui->TableDetails->verticalHeader()->setSectionResizeMode(QHeaderView::Stretch);
 }

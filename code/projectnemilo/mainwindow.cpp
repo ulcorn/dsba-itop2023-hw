@@ -4,8 +4,9 @@
 #include "bookmodel.h"
 #include "editdialog.h"
 #include "infoDialog.h"
+#include "QFileDialog"
 
-void MainWindow::onAddButtonClicked()
+void MainWindow::AddButtonClicked()
 {
     AddDialog dialog(this);
 
@@ -38,7 +39,7 @@ void MainWindow::RemoveButtonClicked()
     }
 }
 
-void MainWindow::onEditButtonClicked()
+void MainWindow::EditButtonClicked()
 {
     int selectedRowIndex = ui->tableView->currentIndex().row();
     if (selectedRowIndex >= 0)
@@ -66,24 +67,115 @@ void MainWindow::onEditButtonClicked()
     }
 }
 
-void MainWindow::oninfoButtonClicked()
+void MainWindow::infoButtonClicked()
 {
     Book selectedBook = model->getBook(ui->tableView->currentIndex().row());
     infoDialog dialog(this);
     dialog.setBook(selectedBook);
     dialog.exec();
 }
+void MainWindow::SaveAsTriggered()
+{
+    QString filePath = QFileDialog::getSaveFileName(this, "Save As", QString(), "CSV Files (*.csv)");
+
+    if (!filePath.isEmpty())
+    {
+        QFile file(filePath);
+        if (file.open(QIODevice::WriteOnly | QIODevice::Text))
+        {
+            QTextStream stream(&file);
 
 
-//void MainWindow::addToCart()
+            QStringList headers;
+            for (int col = 0; col < model->columnCount(); ++col)
+            {
+                headers.append(model->headerData(col, Qt::Horizontal).toString());
+            }
+            stream << headers.join(";") << "\n";
+
+
+            for (int row = 0; row < model->rowCount(); ++row)
+            {
+                QStringList rowData;
+                for (int col = 0; col < model->columnCount(); ++col)
+                {
+                    rowData.append(model->data(model->index(row, col)).toString());
+                }
+                stream << rowData.join(";") << "\n";
+            }
+
+            file.close();
+        }
+    }
+}
+
+void MainWindow::InfoTriggered()
+{
+    QString filePath = QFileDialog::getSaveFileName(this, "Save As", QString(), "CSV Files (*.csv)");
+
+    if (!filePath.isEmpty())
+    {
+        QFile file(filePath);
+        if (file.open(QIODevice::WriteOnly | QIODevice::Text))
+        {
+            QTextStream stream(&file);
+
+
+            QStringList headers;
+            for (int col = 0; col < model->columnCount(); ++col)
+            {
+                headers.append(model->headerData(col, Qt::Horizontal).toString());
+            }
+            stream << headers.join(";") << "\n";
+
+
+            for (int row = 0; row < model->rowCount(); ++row)
+            {
+                QStringList rowData;
+                for (int col = 0; col < model->columnCount(); ++col)
+                {
+                    rowData.append(model->data(model->index(row, col)).toString());
+                }
+                stream << rowData.join(";") << "\n";
+            }
+
+            file.close();
+        }
+    }
+}
+void MainWindow::NewTriggered()
+{
+    ProjectInfoDialog *projectInfoDialog = new ProjectInfoDialog(this);
+    projectInfoDialog->exec();
+}
+
+
+//void MainWindow::AddToCartButtonClicked()
 //{
-//    QItemSelectionModel *select = ui->tableView->selectionModel();
+//    int selectedBookIndex = ui->tableView->currentIndex().row();
 
-//    if (select->hasSelection())
+//    if (selectedBookIndex >= 1)
 //    {
-//        model->removeRow(select->selectedRows().first().row());
+//        Book &selectedBook = model->getBook(selectedBookIndex);
+//        int indexInCart = cartModel->indexOfBook(selectedBook);
+//        if (indexInCart == 0)
+//        {
+//            selectedBook.quantity = 1;
+//            cartModel->addBook(selectedBook);
+//        }
+//        else
+//        {
+//            int newQuantity = cartModel->getBook(indexInCart).quantity + 1;
+//            cartModel->updateQuantity(indexInCart, newQuantity);
+//        }
 //    }
 //}
+
+//void MainWindow::CartButtonClicked()
+//{
+//    ui->tableView->setModel(cartModel);
+//}
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -102,13 +194,15 @@ MainWindow::MainWindow(QWidget *parent)
         ui->tableView->horizontalHeader()->setSectionResizeMode(i, QHeaderView::Stretch);
     }
     connect(ui->removeButton, &QPushButton::clicked, this, &MainWindow::RemoveButtonClicked);
-    connect(ui->addButton, &QPushButton::clicked, this, &MainWindow::onAddButtonClicked);
-    connect(ui->editButton, &QPushButton::clicked, this, &MainWindow::onEditButtonClicked);
-    connect(ui->infoButton, &QPushButton::clicked, this, &MainWindow::oninfoButtonClicked);
+    connect(ui->addButton, &QPushButton::clicked, this, &MainWindow::AddButtonClicked);
+    connect(ui->editButton, &QPushButton::clicked, this, &MainWindow::EditButtonClicked);
+    connect(ui->infoButton, &QPushButton::clicked, this, &MainWindow::infoButtonClicked);
+    connect(ui->actionInfo, &QAction::triggered, this, &MainWindow::NewTriggered);
+    connect(ui->actionSaveAs, &QAction::triggered, this, &MainWindow::SaveAsTriggered);
 }
+
 MainWindow::~MainWindow()
 {
     delete ui;
 }
-
 

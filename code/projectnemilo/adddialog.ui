@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>229</width>
-    <height>530</height>
+    <width>415</width>
+    <height>654</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -276,9 +276,9 @@
       </widget>
      </item>
      <item>
-      <widget class="QDateEdit" name="addDate">
+      <widget class="QLineEdit" name="addDate">
        <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>

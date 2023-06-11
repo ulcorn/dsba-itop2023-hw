@@ -837,18 +837,45 @@ CMakeFiles/projectnemilo.dir/mainwindow.cpp.o: \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qcursor.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qbitmap.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qtableview.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractitemview.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractscrollarea.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qframe.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qabstractitemmodel.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qitemselectionmodel.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractitemdelegate.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qstyleoption.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qlocale.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractspinbox.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qvalidator.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qregularexpression.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qslider.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractslider.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qstyle.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qtabbar.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qrubberband.h \
   /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/projectnemilo/bookmodel.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QAbstractTableModel \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qabstractitemmodel.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QVector \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qvector.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QString \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QVariant \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QDate \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QDateTime \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qdatetime.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qcalendar.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qlocale.h \
+  /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/projectnemilo/projectinfodialog.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QDialog \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qdialog.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QLabel \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qlabel.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qpicture.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qiodevice.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qtextdocument.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qurl.h \
   /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/projectnemilo_autogen/include/./ui_mainwindow.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/QAction \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QApplication \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qapplication.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qcoreapplication.h \
@@ -859,19 +886,6 @@ CMakeFiles/projectnemilo.dir/mainwindow.cpp.o: \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qguiapplication.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qinputmethod.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qguiapplication_platform.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QComboBox \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qcombobox.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractitemdelegate.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qstyleoption.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractspinbox.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qvalidator.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qregularexpression.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qslider.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractslider.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qstyle.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qtabbar.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qrubberband.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qframe.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QGridLayout \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qgridlayout.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qlayout.h \
@@ -880,25 +894,97 @@ CMakeFiles/projectnemilo.dir/mainwindow.cpp.o: \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QHBoxLayout \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QHeaderView \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qheaderview.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractitemview.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractscrollarea.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qitemselectionmodel.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QLabel \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qlabel.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qpicture.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qiodevice.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qtextdocument.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qurl.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QMenu \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qmenu.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QMenuBar \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qmenubar.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QPushButton \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QSpacerItem \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QTableView \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qtableview.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QVBoxLayout \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QWidget \
   /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/projectnemilo/adddialog.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QDialog \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qdialog.h \
   /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/projectnemilo/editdialog.h \
-  /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/projectnemilo/infoDialog.h
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qlineedit.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qtextcursor.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qtextformat.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qpen.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qtextoption.h \
+  /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/projectnemilo/infoDialog.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QFileDialog \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qfiledialog.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qdir.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qfile.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qfiledevice.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/filesystem \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__errc \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cerrno \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iomanip \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/istream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ostream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/bitset \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ios \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__locale \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/locale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/locale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_locale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/mutex \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__mutex_base \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/system_error \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/xlocale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_xlocale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_ctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/xlocale/__wctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_stdlib.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_string.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_time.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_wchar.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_wctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/locale \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstdarg \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/streambuf \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/nl_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_u_char.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_u_short.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_u_int.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_caddr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_blkcnt_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_blksize_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_gid_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_in_addr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_in_port_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_ino_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_ino64_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_key_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_nlink_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_useconds_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_suseconds_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fd_def.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fd_setsize.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fd_set.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fd_clr.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fd_zero.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fd_isset.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fd_copy.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/u8path.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qfileinfo.h

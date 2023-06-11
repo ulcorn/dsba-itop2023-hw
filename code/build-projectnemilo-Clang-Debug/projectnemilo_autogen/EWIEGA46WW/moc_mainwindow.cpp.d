@@ -625,8 +625,9 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/time.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stdarg.h \
   /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/projectnemilo/bookmodel.h \
+  /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/projectnemilo/projectinfodialog.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/QAbstractTableModel \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/QDate \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/QDateTime \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/QString \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/QVariant \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/QVector \
@@ -672,7 +673,9 @@
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qitemselectionmodel.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
@@ -698,6 +701,7 @@
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qrect.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qregularexpression.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qset.h \
@@ -736,6 +740,7 @@
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
@@ -755,20 +760,41 @@
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Versions/A/Headers/qvalidator.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/QDialog \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractitemdelegate.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractitemview.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractscrollarea.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractslider.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractspinbox.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qrubberband.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qslider.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qstyle.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qstyleoption.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabbar.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qtableview.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \

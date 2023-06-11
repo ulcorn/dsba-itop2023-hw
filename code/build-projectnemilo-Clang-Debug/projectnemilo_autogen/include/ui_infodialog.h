@@ -66,6 +66,7 @@ public:
 
         BooktitleGraph = new QLabel(infoDialog);
         BooktitleGraph->setObjectName("BooktitleGraph");
+        BooktitleGraph->setMaximumSize(QSize(64, 16777215));
 
         verticalLayout->addWidget(BooktitleGraph);
 

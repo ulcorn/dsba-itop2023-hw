@@ -1,5 +1,8 @@
 #include "adddialog.h"
 #include "ui_adddialog.h"
+#include <QDate>
+#include <QLineEdit>
+#include <QRegularExpression>
 
 
 AddDialog::AddDialog(QWidget *parent) :
@@ -7,8 +10,26 @@ AddDialog::AddDialog(QWidget *parent) :
     ui(new Ui::AddDialog)
 {
     ui->setupUi(this);
-    ui->addDate->setMinimumDate(QDate(1, 1, 1));
     connect(ui->addAccept, &QPushButton::clicked, this, &AddDialog::accept);
+}
+
+
+QDate AddDialog::parseDateFromLineEdit(const QString& dateString) const
+{
+
+    // Regular expression to match date patterns
+    QRegularExpression re("(\\d{1,2})\\.(\\d{1,2})\\.(\\d{1,4})");
+
+    QRegularExpressionMatch match = re.match(dateString);
+    if (!match.hasMatch()) {
+        return QDate();
+    }
+
+    int day = match.captured(1).toInt();
+    int month = match.captured(2).toInt();
+    int year = match.captured(3).toInt();
+
+    return QDate(year, month, day);
 }
 
 
@@ -91,5 +112,5 @@ QString AddDialog::getLanguage() const
 
 QDate AddDialog::getPublishedDate() const
 {
-    return ui->addDate->date();
+    return parseDateFromLineEdit(ui->addDate->text());
 }

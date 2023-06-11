@@ -849,13 +849,6 @@ CMakeFiles/projectnemilo.dir/adddialog.cpp.o: \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qinputmethod.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qlocale.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qguiapplication_platform.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QDateEdit \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qdatetimeedit.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qdatetime.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qcalendar.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractspinbox.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qvalidator.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qregularexpression.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QGridLayout \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qgridlayout.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qlayout.h \
@@ -880,4 +873,9 @@ CMakeFiles/projectnemilo.dir/adddialog.cpp.o: \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QTextEdit \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qtextedit.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractscrollarea.h
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractscrollarea.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QDate \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qdatetime.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qcalendar.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QRegularExpression \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qregularexpression.h

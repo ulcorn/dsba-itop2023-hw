@@ -2,7 +2,11 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "QtWidgets/qpushbutton.h"
+#include "QtWidgets/qtableview.h"
 #include "bookmodel.h"
+//#include "cartmodel.h"
+#include "projectinfodialog.h"
 namespace Ui {
 class MainWindow;
 }
@@ -18,13 +22,18 @@ public:
 private:
     Ui::MainWindow *ui;
     BookModel *model;
-    BookModel *cart;
-
+    ProjectInfoDialog *projectInfoDialog;
 private slots:
     void RemoveButtonClicked();
-    void onAddButtonClicked();
-    void onEditButtonClicked();
-    void oninfoButtonClicked();
+    void AddButtonClicked();
+    void EditButtonClicked();
+    void infoButtonClicked();
+    void SaveAsTriggered();
+//    void CartButtonClicked();
+//    void AddToCartButtonClicked();
+    void InfoTriggered();
+    void NewTriggered();
+
 };
 
 #endif // MAINWINDOW_H

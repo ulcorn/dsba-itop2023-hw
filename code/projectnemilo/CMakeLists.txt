@@ -25,6 +25,10 @@ set(PROJECT_SOURCES
         adddialog.cpp
         adddialog.ui
 
+        projectinfodialog.cpp
+        projectinfodialog.h
+        projectinfodialog.ui
+
         editdialog.h
         editdialog.cpp
         editdialog.ui
@@ -32,6 +36,11 @@ set(PROJECT_SOURCES
         infodialog.h
         infodialog.cpp
         infodialog.ui
+
+        cartmodel.h
+        cartmodel.cpp
+
+        logowidget.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

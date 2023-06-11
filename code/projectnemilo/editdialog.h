@@ -2,10 +2,14 @@
 #define EDITDIALOG_H
 
 #include <QDialog>
+#include "QtWidgets/qlineedit.h"
 #include "bookmodel.h"
+
+
 namespace Ui {
 class EditDialog;
 }
+
 class EditDialog : public QDialog
 {
     Q_OBJECT
@@ -26,6 +30,7 @@ public:
     QString getIsbn() const;
     QString getLanguage() const;
     QDate getPublishedDate() const;
+    QDate parseDateFromLineEdit(const QString& dateString) const;
 
 private:
     Ui::EditDialog *ui; // The UI form object

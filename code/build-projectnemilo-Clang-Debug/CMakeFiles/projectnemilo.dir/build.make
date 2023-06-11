@@ -139,10 +139,24 @@ CMakeFiles/projectnemilo.dir/adddialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectnemilo.dir/adddialog.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/adddialog.cpp" -o CMakeFiles/projectnemilo.dir/adddialog.cpp.s
 
+CMakeFiles/projectnemilo.dir/projectinfodialog.cpp.o: CMakeFiles/projectnemilo.dir/flags.make
+CMakeFiles/projectnemilo.dir/projectinfodialog.cpp.o: /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/projectnemilo/projectinfodialog.cpp
+CMakeFiles/projectnemilo.dir/projectinfodialog.cpp.o: CMakeFiles/projectnemilo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/projectnemilo.dir/projectinfodialog.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projectnemilo.dir/projectinfodialog.cpp.o -MF CMakeFiles/projectnemilo.dir/projectinfodialog.cpp.o.d -o CMakeFiles/projectnemilo.dir/projectinfodialog.cpp.o -c "/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/projectinfodialog.cpp"
+
+CMakeFiles/projectnemilo.dir/projectinfodialog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectnemilo.dir/projectinfodialog.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/projectinfodialog.cpp" > CMakeFiles/projectnemilo.dir/projectinfodialog.cpp.i
+
+CMakeFiles/projectnemilo.dir/projectinfodialog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectnemilo.dir/projectinfodialog.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/projectinfodialog.cpp" -o CMakeFiles/projectnemilo.dir/projectinfodialog.cpp.s
+
 CMakeFiles/projectnemilo.dir/editdialog.cpp.o: CMakeFiles/projectnemilo.dir/flags.make
 CMakeFiles/projectnemilo.dir/editdialog.cpp.o: /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/projectnemilo/editdialog.cpp
 CMakeFiles/projectnemilo.dir/editdialog.cpp.o: CMakeFiles/projectnemilo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/projectnemilo.dir/editdialog.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/projectnemilo.dir/editdialog.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projectnemilo.dir/editdialog.cpp.o -MF CMakeFiles/projectnemilo.dir/editdialog.cpp.o.d -o CMakeFiles/projectnemilo.dir/editdialog.cpp.o -c "/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/editdialog.cpp"
 
 CMakeFiles/projectnemilo.dir/editdialog.cpp.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/projectnemilo.dir/editdialog.cpp.s: cmake_force
 CMakeFiles/projectnemilo.dir/infodialog.cpp.o: CMakeFiles/projectnemilo.dir/flags.make
 CMakeFiles/projectnemilo.dir/infodialog.cpp.o: /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/projectnemilo/infodialog.cpp
 CMakeFiles/projectnemilo.dir/infodialog.cpp.o: CMakeFiles/projectnemilo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/projectnemilo.dir/infodialog.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/projectnemilo.dir/infodialog.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projectnemilo.dir/infodialog.cpp.o -MF CMakeFiles/projectnemilo.dir/infodialog.cpp.o.d -o CMakeFiles/projectnemilo.dir/infodialog.cpp.o -c "/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/infodialog.cpp"
 
 CMakeFiles/projectnemilo.dir/infodialog.cpp.i: cmake_force
@@ -167,6 +181,20 @@ CMakeFiles/projectnemilo.dir/infodialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectnemilo.dir/infodialog.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/infodialog.cpp" -o CMakeFiles/projectnemilo.dir/infodialog.cpp.s
 
+CMakeFiles/projectnemilo.dir/cartmodel.cpp.o: CMakeFiles/projectnemilo.dir/flags.make
+CMakeFiles/projectnemilo.dir/cartmodel.cpp.o: /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/projectnemilo/cartmodel.cpp
+CMakeFiles/projectnemilo.dir/cartmodel.cpp.o: CMakeFiles/projectnemilo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/projectnemilo.dir/cartmodel.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projectnemilo.dir/cartmodel.cpp.o -MF CMakeFiles/projectnemilo.dir/cartmodel.cpp.o.d -o CMakeFiles/projectnemilo.dir/cartmodel.cpp.o -c "/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/cartmodel.cpp"
+
+CMakeFiles/projectnemilo.dir/cartmodel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectnemilo.dir/cartmodel.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/cartmodel.cpp" > CMakeFiles/projectnemilo.dir/cartmodel.cpp.i
+
+CMakeFiles/projectnemilo.dir/cartmodel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectnemilo.dir/cartmodel.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/cartmodel.cpp" -o CMakeFiles/projectnemilo.dir/cartmodel.cpp.s
+
 # Object files for target projectnemilo
 projectnemilo_OBJECTS = \
 "CMakeFiles/projectnemilo.dir/projectnemilo_autogen/mocs_compilation.cpp.o" \
@@ -174,8 +202,10 @@ projectnemilo_OBJECTS = \
 "CMakeFiles/projectnemilo.dir/mainwindow.cpp.o" \
 "CMakeFiles/projectnemilo.dir/bookmodel.cpp.o" \
 "CMakeFiles/projectnemilo.dir/adddialog.cpp.o" \
+"CMakeFiles/projectnemilo.dir/projectinfodialog.cpp.o" \
 "CMakeFiles/projectnemilo.dir/editdialog.cpp.o" \
-"CMakeFiles/projectnemilo.dir/infodialog.cpp.o"
+"CMakeFiles/projectnemilo.dir/infodialog.cpp.o" \
+"CMakeFiles/projectnemilo.dir/cartmodel.cpp.o"
 
 # External object files for target projectnemilo
 projectnemilo_EXTERNAL_OBJECTS =
@@ -185,14 +215,16 @@ projectnemilo.app/Contents/MacOS/projectnemilo: CMakeFiles/projectnemilo.dir/mai
 projectnemilo.app/Contents/MacOS/projectnemilo: CMakeFiles/projectnemilo.dir/mainwindow.cpp.o
 projectnemilo.app/Contents/MacOS/projectnemilo: CMakeFiles/projectnemilo.dir/bookmodel.cpp.o
 projectnemilo.app/Contents/MacOS/projectnemilo: CMakeFiles/projectnemilo.dir/adddialog.cpp.o
+projectnemilo.app/Contents/MacOS/projectnemilo: CMakeFiles/projectnemilo.dir/projectinfodialog.cpp.o
 projectnemilo.app/Contents/MacOS/projectnemilo: CMakeFiles/projectnemilo.dir/editdialog.cpp.o
 projectnemilo.app/Contents/MacOS/projectnemilo: CMakeFiles/projectnemilo.dir/infodialog.cpp.o
+projectnemilo.app/Contents/MacOS/projectnemilo: CMakeFiles/projectnemilo.dir/cartmodel.cpp.o
 projectnemilo.app/Contents/MacOS/projectnemilo: CMakeFiles/projectnemilo.dir/build.make
 projectnemilo.app/Contents/MacOS/projectnemilo: /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
 projectnemilo.app/Contents/MacOS/projectnemilo: /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Versions/A/QtGui
 projectnemilo.app/Contents/MacOS/projectnemilo: /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/QtCore
 projectnemilo.app/Contents/MacOS/projectnemilo: CMakeFiles/projectnemilo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable projectnemilo.app/Contents/MacOS/projectnemilo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable projectnemilo.app/Contents/MacOS/projectnemilo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/projectnemilo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

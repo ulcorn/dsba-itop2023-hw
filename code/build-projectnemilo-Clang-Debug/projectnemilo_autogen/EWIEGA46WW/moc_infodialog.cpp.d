@@ -626,7 +626,7 @@
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stdarg.h \
   /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/projectnemilo/bookmodel.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/QAbstractTableModel \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/QDate \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/QDateTime \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/QString \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/QVariant \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Versions/A/Headers/QVector \

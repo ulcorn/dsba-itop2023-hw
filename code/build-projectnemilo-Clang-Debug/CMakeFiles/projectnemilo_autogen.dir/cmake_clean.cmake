@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "projectnemilo_autogen/include/ui_editdialog.h"
   "projectnemilo_autogen/include/ui_infodialog.h"
   "projectnemilo_autogen/include/ui_mainwindow.h"
+  "projectnemilo_autogen/include/ui_projectinfodialog.h"
   "projectnemilo_autogen/mocs_compilation.cpp"
 )
 

@@ -235,6 +235,30 @@ bookmodel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectnemilo.dir/build.make CMakeFiles/projectnemilo.dir/bookmodel.cpp.s
 .PHONY : bookmodel.cpp.s
 
+cartmodel.o: cartmodel.cpp.o
+.PHONY : cartmodel.o
+
+# target to build an object file
+cartmodel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectnemilo.dir/build.make CMakeFiles/projectnemilo.dir/cartmodel.cpp.o
+.PHONY : cartmodel.cpp.o
+
+cartmodel.i: cartmodel.cpp.i
+.PHONY : cartmodel.i
+
+# target to preprocess a source file
+cartmodel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectnemilo.dir/build.make CMakeFiles/projectnemilo.dir/cartmodel.cpp.i
+.PHONY : cartmodel.cpp.i
+
+cartmodel.s: cartmodel.cpp.s
+.PHONY : cartmodel.s
+
+# target to generate assembly for a file
+cartmodel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectnemilo.dir/build.make CMakeFiles/projectnemilo.dir/cartmodel.cpp.s
+.PHONY : cartmodel.cpp.s
+
 editdialog.o: editdialog.cpp.o
 .PHONY : editdialog.o
 
@@ -331,6 +355,30 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectnemilo.dir/build.make CMakeFiles/projectnemilo.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+projectinfodialog.o: projectinfodialog.cpp.o
+.PHONY : projectinfodialog.o
+
+# target to build an object file
+projectinfodialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectnemilo.dir/build.make CMakeFiles/projectnemilo.dir/projectinfodialog.cpp.o
+.PHONY : projectinfodialog.cpp.o
+
+projectinfodialog.i: projectinfodialog.cpp.i
+.PHONY : projectinfodialog.i
+
+# target to preprocess a source file
+projectinfodialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectnemilo.dir/build.make CMakeFiles/projectnemilo.dir/projectinfodialog.cpp.i
+.PHONY : projectinfodialog.cpp.i
+
+projectinfodialog.s: projectinfodialog.cpp.s
+.PHONY : projectinfodialog.s
+
+# target to generate assembly for a file
+projectinfodialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectnemilo.dir/build.make CMakeFiles/projectnemilo.dir/projectinfodialog.cpp.s
+.PHONY : projectinfodialog.cpp.s
+
 projectnemilo_autogen/mocs_compilation.o: projectnemilo_autogen/mocs_compilation.cpp.o
 .PHONY : projectnemilo_autogen/mocs_compilation.o
 
@@ -375,6 +423,9 @@ help:
 	@echo "... bookmodel.o"
 	@echo "... bookmodel.i"
 	@echo "... bookmodel.s"
+	@echo "... cartmodel.o"
+	@echo "... cartmodel.i"
+	@echo "... cartmodel.s"
 	@echo "... editdialog.o"
 	@echo "... editdialog.i"
 	@echo "... editdialog.s"
@@ -387,6 +438,9 @@ help:
 	@echo "... mainwindow.o"
 	@echo "... mainwindow.i"
 	@echo "... mainwindow.s"
+	@echo "... projectinfodialog.o"
+	@echo "... projectinfodialog.i"
+	@echo "... projectinfodialog.s"
 	@echo "... projectnemilo_autogen/mocs_compilation.o"
 	@echo "... projectnemilo_autogen/mocs_compilation.i"
 	@echo "... projectnemilo_autogen/mocs_compilation.s"

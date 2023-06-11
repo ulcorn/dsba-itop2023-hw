@@ -5,7 +5,7 @@
 #include <QVector>
 #include <QString>
 #include <QVariant>
-#include <QDate>
+#include <QDateTime>
 
 struct Book
 {
@@ -22,11 +22,13 @@ struct Book
     QString isbn;
     QString language;
     QDate published_date;
+    int quantity = 0;
 };
 class BookModel : public QAbstractTableModel
 {
-
+    Q_OBJECT
 public:
+    QVector<Book> m_books;
     explicit BookModel(QObject *parent = nullptr);
     void loadFromCSV(QString fileName);
     void addBook(const Book &book);
@@ -37,9 +39,7 @@ public:
     QVariant data(const QModelIndex &index, int role = Qt::DisplayRole) const override;
     Book& getBook(int index);
     QVariant headerData(int section, Qt::Orientation orientation, int role = Qt::DisplayRole) const override;
-
 private:
-    QVector<Book> m_books;
 };
 
 #endif // BOOKMODEL_H

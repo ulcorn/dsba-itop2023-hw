@@ -837,17 +837,43 @@ CMakeFiles/projectnemilo.dir/main.cpp.o: \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qcursor.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qbitmap.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qtableview.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractitemview.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractscrollarea.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qframe.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qabstractitemmodel.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qitemselectionmodel.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractitemdelegate.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qstyleoption.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qlocale.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractspinbox.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qvalidator.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qregularexpression.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qslider.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractslider.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qstyle.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qtabbar.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qrubberband.h \
   /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/projectnemilo/bookmodel.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QAbstractTableModel \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qabstractitemmodel.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QVector \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qvector.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QString \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QVariant \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QDate \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QDateTime \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qdatetime.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qcalendar.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qlocale.h \
+  /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/projectnemilo/projectinfodialog.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QDialog \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qdialog.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QLabel \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qlabel.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qpicture.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qiodevice.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qtextdocument.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qurl.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QApplication \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qapplication.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qcoreapplication.h \

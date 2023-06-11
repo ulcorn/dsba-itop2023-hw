@@ -303,6 +303,12 @@
 			null
 		],
 		[
+			"/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/cartmodel.h",
+			"MU",
+			"EWIEGA46WW/moc_cartmodel.cpp",
+			null
+		],
+		[
 			"/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/editdialog.h",
 			"MU",
 			"EWIEGA46WW/moc_editdialog.cpp",
@@ -315,9 +321,21 @@
 			null
 		],
 		[
+			"/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/logowidget.h",
+			"MU",
+			"EWIEGA46WW/moc_logowidget.cpp",
+			null
+		],
+		[
 			"/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/projectinfodialog.h",
+			"MU",
+			"EWIEGA46WW/moc_projectinfodialog.cpp",
 			null
 		]
 	],
@@ -389,6 +407,11 @@
 			null
 		],
 		[
+			"/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/cartmodel.cpp",
+			"MU",
+			null
+		],
+		[
 			"/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/editdialog.cpp",
 			"MU",
 			null
@@ -405,6 +428,11 @@
 		],
 		[
 			"/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/projectinfodialog.cpp",
 			"MU",
 			null
 		]

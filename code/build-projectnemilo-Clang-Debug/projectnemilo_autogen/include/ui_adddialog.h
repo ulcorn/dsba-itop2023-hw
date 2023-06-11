@@ -11,7 +11,6 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QDateEdit>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHBoxLayout>
@@ -64,14 +63,14 @@ public:
     QLineEdit *addLanguage;
     QHBoxLayout *horizontalLayout_6;
     QLabel *label_13;
-    QDateEdit *addDate;
+    QLineEdit *addDate;
     QPushButton *addAccept;
 
     void setupUi(QDialog *AddDialog)
     {
         if (AddDialog->objectName().isEmpty())
             AddDialog->setObjectName("AddDialog");
-        AddDialog->resize(229, 530);
+        AddDialog->resize(415, 654);
         gridLayout = new QGridLayout(AddDialog);
         gridLayout->setObjectName("gridLayout");
         horizontalLayout = new QHBoxLayout();
@@ -291,13 +290,10 @@ public:
 
         horizontalLayout_6->addWidget(label_13);
 
-        addDate = new QDateEdit(AddDialog);
+        addDate = new QLineEdit(AddDialog);
         addDate->setObjectName("addDate");
-        QSizePolicy sizePolicy2(QSizePolicy::Minimum, QSizePolicy::Preferred);
-        sizePolicy2.setHorizontalStretch(0);
-        sizePolicy2.setVerticalStretch(0);
-        sizePolicy2.setHeightForWidth(addDate->sizePolicy().hasHeightForWidth());
-        addDate->setSizePolicy(sizePolicy2);
+        sizePolicy.setHeightForWidth(addDate->sizePolicy().hasHeightForWidth());
+        addDate->setSizePolicy(sizePolicy);
 
         horizontalLayout_6->addWidget(addDate);
 

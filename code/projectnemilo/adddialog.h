@@ -25,6 +25,7 @@ public:
     QString getIsbn() const;
     QString getLanguage() const;
     QDate getPublishedDate() const;
+    QDate parseDateFromLineEdit(const QString& dateString) const;
 
 private:
     Ui::AddDialog *ui;

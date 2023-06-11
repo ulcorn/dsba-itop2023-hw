@@ -1,5 +1,8 @@
 #include "editdialog.h"
 #include "ui_editdialog.h"
+#include <QDate>
+#include <QLineEdit>
+#include <QRegularExpression>
 
 EditDialog::EditDialog(const Book& book, QWidget *parent) :
     QDialog(parent),
@@ -18,10 +21,29 @@ EditDialog::EditDialog(const Book& book, QWidget *parent) :
     ui->editGenres->setText(book.genres);
     ui->editISBN->setText(book.isbn);
     ui->editLanguage->setText(book.language);
-    ui->editDate->setMinimumDate(QDate(1, 1, 1));
-    ui->editDate->setDate(book.published_date);
+//    ui->editDate->setMinimumDate(QDate(1, 1, 1));
+    ui->editDate->setText(book.published_date.toString("dd.MM.yyyy"));
     connect(ui->editAccept, &QPushButton::clicked, this, &EditDialog::accept);
 }
+
+
+QDate EditDialog::parseDateFromLineEdit(const QString& dateString) const
+{
+
+    QRegularExpression re("(\\d{1,2})\\.(\\d{1,2})\\.(\\d{1,4})");
+
+    QRegularExpressionMatch match = re.match(dateString);
+    if (!match.hasMatch()) {
+        return QDate();
+    }
+
+    int day = match.captured(1).toInt();
+    int month = match.captured(2).toInt();
+    int year = match.captured(3).toInt();
+
+    return QDate(year, month, day);
+}
+
 
 EditDialog::~EditDialog()
 {
@@ -81,5 +103,5 @@ QString EditDialog::getLanguage() const
 }
 QDate EditDialog::getPublishedDate() const
 {
-    return ui->editDate->date();
+    return parseDateFromLineEdit(ui->editDate->text());
 }

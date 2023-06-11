@@ -838,8 +838,7 @@ CMakeFiles/projectnemilo.dir/projectnemilo_autogen/mocs_compilation.cpp.o: \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qcursor.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qbitmap.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qtmochelpers.h \
-  /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/projectnemilo_autogen/EWIEGA46WW/moc_editdialog.cpp \
-  /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/projectnemilo_autogen/EWIEGA46WW/../../../projectnemilo/editdialog.h \
+  /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/projectnemilo_autogen/EWIEGA46WW/moc_bookmodel.cpp \
   /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/projectnemilo_autogen/EWIEGA46WW/../../../projectnemilo/bookmodel.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QAbstractTableModel \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qabstractitemmodel.h \
@@ -847,14 +846,48 @@ CMakeFiles/projectnemilo.dir/projectnemilo_autogen/mocs_compilation.cpp.o: \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qvector.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QString \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QVariant \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QDate \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/QDateTime \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qdatetime.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qcalendar.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qlocale.h \
+  /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/projectnemilo_autogen/EWIEGA46WW/moc_cartmodel.cpp \
+  /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/projectnemilo_autogen/EWIEGA46WW/../../../projectnemilo/cartmodel.h \
+  /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/projectnemilo_autogen/EWIEGA46WW/moc_editdialog.cpp \
+  /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/projectnemilo_autogen/EWIEGA46WW/../../../projectnemilo/editdialog.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qlineedit.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qframe.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qtextcursor.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qtextdocument.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qurl.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qtextformat.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qpen.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qtextoption.h \
   /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/projectnemilo_autogen/EWIEGA46WW/moc_infodialog.cpp \
   /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/projectnemilo_autogen/EWIEGA46WW/../../../projectnemilo/infodialog.h \
   /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/projectnemilo_autogen/EWIEGA46WW/moc_mainwindow.cpp \
   /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/projectnemilo_autogen/EWIEGA46WW/../../../projectnemilo/mainwindow.h \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QMainWindow \
   /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
-  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qtabwidget.h
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qtableview.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractitemview.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractscrollarea.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qitemselectionmodel.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractitemdelegate.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qstyleoption.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractspinbox.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qvalidator.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qregularexpression.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qslider.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qabstractslider.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qstyle.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qtabbar.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qrubberband.h \
+  /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/projectnemilo_autogen/EWIEGA46WW/../../../projectnemilo/projectinfodialog.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/QLabel \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtWidgets.framework/Headers/qlabel.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtGui.framework/Headers/qpicture.h \
+  /Users/dreamer/Qt/6.5.1/macos/lib/QtCore.framework/Headers/qiodevice.h \
+  /Users/dreamer/Desktop/cpp\ project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/projectnemilo_autogen/EWIEGA46WW/moc_projectinfodialog.cpp

@@ -10,10 +10,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/adddialog.cpp" "CMakeFiles/projectnemilo.dir/adddialog.cpp.o" "gcc" "CMakeFiles/projectnemilo.dir/adddialog.cpp.o.d"
   "/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/bookmodel.cpp" "CMakeFiles/projectnemilo.dir/bookmodel.cpp.o" "gcc" "CMakeFiles/projectnemilo.dir/bookmodel.cpp.o.d"
+  "/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/cartmodel.cpp" "CMakeFiles/projectnemilo.dir/cartmodel.cpp.o" "gcc" "CMakeFiles/projectnemilo.dir/cartmodel.cpp.o.d"
   "/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/editdialog.cpp" "CMakeFiles/projectnemilo.dir/editdialog.cpp.o" "gcc" "CMakeFiles/projectnemilo.dir/editdialog.cpp.o.d"
   "/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/infodialog.cpp" "CMakeFiles/projectnemilo.dir/infodialog.cpp.o" "gcc" "CMakeFiles/projectnemilo.dir/infodialog.cpp.o.d"
   "/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/main.cpp" "CMakeFiles/projectnemilo.dir/main.cpp.o" "gcc" "CMakeFiles/projectnemilo.dir/main.cpp.o.d"
   "/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/mainwindow.cpp" "CMakeFiles/projectnemilo.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/projectnemilo.dir/mainwindow.cpp.o.d"
+  "/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/projectnemilo/projectinfodialog.cpp" "CMakeFiles/projectnemilo.dir/projectinfodialog.cpp.o" "gcc" "CMakeFiles/projectnemilo.dir/projectinfodialog.cpp.o.d"
   "/Users/dreamer/Desktop/cpp project/dsba-itop2023-hw/code/build-projectnemilo-Clang-Debug/projectnemilo_autogen/mocs_compilation.cpp" "CMakeFiles/projectnemilo.dir/projectnemilo_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/projectnemilo.dir/projectnemilo_autogen/mocs_compilation.cpp.o.d"
   )
 
